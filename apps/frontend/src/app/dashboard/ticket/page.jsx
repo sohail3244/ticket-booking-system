@@ -89,8 +89,7 @@ export default function TicketTypePage() {
 
         maxPerBooking: Number(formData.maxPerBooking),
 
-        placeId:
-          "505c043f-3fb5-481f-b712-93637c688447",
+        placeId: currentPlace?.id,
       },
     };
 
